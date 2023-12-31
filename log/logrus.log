@@ -1,0 +1,837 @@
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T19:16:56+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T19:18:05+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T19:18:09+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T19:25:48+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T19:25:53+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T19:41:26+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T19:41:32+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:04:03+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:04:07+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaa@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:04:15+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 5061463584,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imhhc3Nhbi5yYXphYUB5b3BtYWlsLmNvbSIsImV4cCI6MTcwNDAzNTM2MCwiZmlyc3ROYW1lIjoiSGFzc2FuIiwibGFzdE5hbWUiOiJSYXphIiwidWlkIjoxMDA1fQ.9Y15gSdEpeAsaMDJvrHz1CPiN7q_6gWEX84F_6B_D-w"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:04:20+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 151098,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": false,
+      "code": 1003,
+      "message": "signature is invalid",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:04:37+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 618250947,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User fetched successfully",
+      "data": {
+        "email": "hassan.razaa@yopmail.com",
+        "firstName": "Hassan",
+        "id": 1005,
+        "lastName": "Raza"
+      }
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:04:45+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaaa@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:04:55+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1237936841,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsImV4cCI6MTcwNDAzNTM5NiwiZmlyc3ROYW1lIjoiIiwibGFzdE5hbWUiOiIiLCJ1aWQiOjB9.63hdCpgFbHZ9qB37ZZ9YjZhz2IbbI0b6t8V9-rOeCYM"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:04:56+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaqwe@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:05:09+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1246347716,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsImV4cCI6MTcwNDAzNTQxMCwiZmlyc3ROYW1lIjoiIiwibGFzdE5hbWUiOiIiLCJ1aWQiOjB9.Cp7YkaLSi-qUPtmMBwDwOpzVbJzDIaMu7DU3bwStTlc"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:05:10+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaqwe@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:05:37+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1135831636,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsImV4cCI6MTcwNDAzNTQzOCwiZmlyc3ROYW1lIjoiIiwibGFzdE5hbWUiOiIiLCJ1aWQiOjB9.UJcvBf5ZYZZE5ms-MrrFRG4dkp0z2BUGpfoz6XE21zY"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:05:38+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:09:43+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:09:47+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaqwe@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:09:51+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 4065005148,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid Input.",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:09:55+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:10:34+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:10:39+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaqwe@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:10:42+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 4765601159,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid credentials",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:10:46+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body : {hassan.razaa@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:11:13+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1093898884,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imhhc3Nhbi5yYXphYUB5b3BtYWlsLmNvbSIsImV4cCI6MTcwNDAzNTc3NCwiZmlyc3ROYW1lIjoiSGFzc2FuIiwibGFzdE5hbWUiOiJSYXphIiwidWlkIjoxMDA1fQ.8c0W9UwBPb94fxfBD90Mhs4Yr_sZZASU-IhHiJnnxpg"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:11:14+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 618989912,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User fetched successfully",
+      "data": {
+        "email": "hassan.razaa@yopmail.com",
+        "firstName": "Hassan",
+        "id": 1005,
+        "lastName": "Raza"
+      }
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:11:28+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:28:32+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:28:36+05:00"
+}
+{
+  "Assessment": {},
+  "level": "debug",
+  "msg": "Failed to record the response",
+  "time": "2023-12-31T20:29:01+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 127926,
+    "request_method": "POST",
+    "request_path": "/api/test/user/signup",
+    "response": {
+      "result": false,
+      "code": 0,
+      "message": "",
+      "data": null
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:29:01+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: {Hassan Raza hassan.raza@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:29:08+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "===== Signup Request ==========",
+  "time": "2023-12-31T20:29:08+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "body HassanRazahassan.raza@yopmail.com",
+  "time": "2023-12-31T20:29:08+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 5341520250,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "Successfully registered.",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:29:13+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: {Hassan Raza hassan.raza@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:29:17+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "===== Signup Request ==========",
+  "time": "2023-12-31T20:29:17+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "body HassanRazahassan.raza@yopmail.com",
+  "time": "2023-12-31T20:29:17+05:00"
+}
+{
+  "Assessment": {},
+  "level": "error",
+  "msg": "error in user registration API err: user with email hassan.raza@yopmail.com already exists",
+  "time": "2023-12-31T20:29:18+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 655420304,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": false,
+      "code": 500,
+      "message": "Internal Server error",
+      "data": {}
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:29:18+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: {Hassan Raza hassan.raza@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:29:20+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "===== Signup Request ==========",
+  "time": "2023-12-31T20:29:20+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "body HassanRazahassan.raza@yopmail.com",
+  "time": "2023-12-31T20:29:20+05:00"
+}
+{
+  "Assessment": {},
+  "level": "error",
+  "msg": "error in user registration API err: user with email hassan.raza@yopmail.com already exists",
+  "time": "2023-12-31T20:29:21+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 870725121,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": false,
+      "code": 500,
+      "message": "Internal Server error",
+      "data": {}
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:29:21+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:32:28+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:32:33+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: {Hassan Raza hassan.raza@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:32:43+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "===== Signup Request ==========",
+  "time": "2023-12-31T20:32:43+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "body HassanRazahassan.raza@yopmail.com",
+  "time": "2023-12-31T20:32:43+05:00"
+}
+{
+  "Assessment": {},
+  "level": "error",
+  "msg": "error in user registration API err: user with email hassan.raza@yopmail.com already exists",
+  "time": "2023-12-31T20:32:47+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 4576006497,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": false,
+      "code": 1006,
+      "message": "User already exists with this email",
+      "data": {}
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:32:47+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body: {hassan.ali@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:33:19+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 234221056,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid credentials",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:33:20+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: {Hassan Raza hassan.ali@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:33:28+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "===== Signup Request ==========",
+  "time": "2023-12-31T20:33:28+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "body HassanRazahassan.ali@yopmail.com",
+  "time": "2023-12-31T20:33:28+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1388433894,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "Successfully registered.",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:33:29+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request to CreateUserAccount with body: { Raza hassan.ali@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:33:44+05:00"
+}
+{
+  "Assessment": {},
+  "level": "error",
+  "msg": "error in request body JSON in CreateUserAccount API err: invalid data",
+  "time": "2023-12-31T20:33:44+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 211906,
+    "request_method": "POST",
+    "request_path": "/api/user/signup",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid Input.",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:33:44+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body: {hassan.hassan@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:34:12+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 266457860,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid credentials",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:34:12+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body: {hassan.hassan@yopmail.com  }",
+  "time": "2023-12-31T20:34:27+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 235121098,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": false,
+      "code": 1002,
+      "message": "Invalid credentials",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:34:28+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "request for user SignIn with body: {hassan.ali@yopmail.com Qwerty@98457qmis31 }",
+  "time": "2023-12-31T20:34:38+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1078975986,
+    "request_method": "POST",
+    "request_path": "/api/user/login",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User successfully logged In",
+      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imhhc3Nhbi5hbGlAeW9wbWFpbC5jb20iLCJleHAiOjE3MDQwMzcxODAsImZpcnN0TmFtZSI6Ikhhc3NhbiIsImxhc3ROYW1lIjoiUmF6YSIsInVpZCI6MTAwN30.SsfJg3vxhazmoLhEFds9m_JYVYUC-iXHeo_shEdhzCs"
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:34:40+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 199709,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": false,
+      "code": 1003,
+      "message": "Token is expired",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:34:54+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 618885809,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User fetched successfully",
+      "data": {
+        "email": "hassan.ali@yopmail.com",
+        "firstName": "Hassan",
+        "id": 1007,
+        "lastName": "Raza"
+      }
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:35:19+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 1725316045,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User fetched successfully",
+      "data": {
+        "email": "hassan.ali@yopmail.com",
+        "firstName": "Hassan",
+        "id": 1007,
+        "lastName": "Raza"
+      }
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:37:47+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T20:38:00+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T20:38:05+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 238086,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": false,
+      "code": 1001,
+      "message": "Token not found in Authorization header",
+      "data": ""
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:38:09+05:00"
+}
+{
+  "Assessment": {
+    "client_ip": "::1",
+    "corelationId": "",
+    "error": null,
+    "latency_nanoseconds": 4081945376,
+    "request_method": "GET",
+    "request_path": "/api/user/get",
+    "response": {
+      "result": true,
+      "code": 1000,
+      "message": "User fetched successfully",
+      "data": {
+        "email": "hassan.ali@yopmail.com",
+        "firstName": "Hassan",
+        "id": 1007,
+        "lastName": "Raza"
+      }
+    }
+  },
+  "level": "debug",
+  "msg": "Request Details",
+  "time": "2023-12-31T20:38:57+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "Logrus has been initiated",
+  "time": "2023-12-31T21:09:43+05:00"
+}
+{
+  "Assessment": {},
+  "level": "info",
+  "msg": "rest server ok",
+  "time": "2023-12-31T21:09:48+05:00"
+}
